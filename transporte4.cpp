@@ -2,12 +2,11 @@
 using namespace std;
 int main(){
     int opcion;
-    cout << "Eliige el medio de transporte que humildemente te alcance para hoy" << endl;
+    cout << "Elige el medio de transporte que humildemente te alcance para hoy" << endl;
     cout << "1. Bus" << endl;
     cout << "2. Metro" << endl;
-    cout << "3. Taxi" << endl;
-     cin >> opcion;
-     switch (opcion){
+    cout << "3. Taxi" << endl;     cin >> opcion;
+switch (opcion){
         case 1:
             cout << "El bus es opcion economica aproximadamente un costo de 0.25 centavos de dolar por viaje" << endl;
             break;
@@ -23,6 +22,3 @@ int main(){
         }
     return 0;
 }
-
-
-     
